@@ -1,0 +1,17 @@
+#more {display: none;}
+.Seccion2{
+
+    width: 100vw;
+    height: 70vh;
+    background-color:  #333333 ;
+    
+}
+.Seccion2 .conteiner{
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas: 'uno dos tres' 'cuatro dos cinco';
+}
